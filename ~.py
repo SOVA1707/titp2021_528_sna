@@ -21,6 +21,7 @@ for i in range(659):
     X.append(i/100)
 X = numpy.array(X)
 #2
+#some changes (not)
 t = numpy.polyfit(x, y, 2)
 Y = numpy.poly1d(t)
 #3
